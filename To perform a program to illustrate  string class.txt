@@ -1,0 +1,12 @@
+To perform a program to illustrate different constructors and methods using String Classes 
+public class StringClass {
+	public static void main(String[] args) {
+		String s=”Java Programming";
+		System.out.println("Upper case of name is : "+s.toUpperCase());
+		System.out.println("Lower case of name is : "+s.toLowerCase());
+		System.out.println("Length of the name is : "+s.length());
+		System.out.println("Trim of the name is : "+s.trim());
+		System.out.println("String of the name is : "+s.toString());
+		System.out.println("Substring of the name is : "+s.substring(0,4));
+	}
+}

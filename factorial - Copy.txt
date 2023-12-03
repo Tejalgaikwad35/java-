@@ -1,0 +1,18 @@
+PROBLEM STATEMENT :
+Write a program accept number from user and calculate factorial of given number.
+
+import java .util.Scanner;
+public class Factorialno {
+     public static void main(String[] args) {
+		int num,fact=1,i;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the no :");
+		num=sc.nextInt();
+		for(i=1;i<=num;i++)
+		{
+	         fact=fact*i;
+	     }
+		System.out.println("Facorial of the no is :"+fact);
+         }
+
+}

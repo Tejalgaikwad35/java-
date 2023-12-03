@@ -1,0 +1,26 @@
+Write a program to method overloading allows developers to create multiple methods in a class with the same name but different parameter lists .
+public class Addition {
+	int add(int a,int b)
+	{
+		int sum;
+		sum=a+b;
+		return sum;
+	}
+	int add(int a,int b,int c)
+	{
+		int sum;
+		sum=a+b+c;
+		return sum;
+	}
+	double add(double a,double b,double c)
+	{
+		double sum;
+		sum=a+b+c;
+		return sum;
+	}
+	public static void main(String[] args) {
+		addition obj=new addition();
+		System.out.println("Sum method overloading:"+obj.add(17,86));
+		System.out.println("Sum method overloading:"+obj.add(64,76,78));
+		System.out.println("Sum method overloading:"+obj.add(64.5,76.01,78.5));
+	}
